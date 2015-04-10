@@ -7,6 +7,7 @@ The PHP script which use TDK dictionary for spinning in Turkish. There are two s
 <li>PHP 5+</li>
 <li>jQuery</li>
 <li>cURL</li>
+</ul>
 
 <h3>Screenshot</h3>
 <img src='http://i.hizliresim.com/nA170g.png' />

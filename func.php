@@ -7,7 +7,7 @@ function sayfa(){
         <tr>
             <td>
                 <input type="text" name="degismeyecek" style="width:100%; float:left;" placeholder="Değiştirilmeyecek kelimeleri girin. Ayırmak için virgül koyun." />
-                <select  name="spintur" style="width:300px; float:left; margin-left:0 4px 0 4px;" >
+                <select  name="spintur" style="width:300px; float:left; margin-left:0 6px 0 6px;" >
                     <option value="rastgele">Rastgele Spinlesin (Anlam Bozulabilir)</option>
                     <option value="ben">Spinleri Ben Belirleyeyim (Önerilir)</option>
                 </select>

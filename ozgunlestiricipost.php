@@ -1,6 +1,6 @@
 <?php
 $yazi=$_POST['yazi'];
-if($yazi==""){die ('<center>Lütfen metin kısmını boş bırakmayınız.</center>');}
+if($yazi==""){die ('<center>Lütfen metin kısmını boş bırakmayınız!</center>');}
 $yazi = str_replace('"',"'",strip_tags($yazi));
 $degismeyecek=explode(",",$_POST['degismeyecek']);
 array_push($degismeyecek, "ve","de");
@@ -76,3 +76,4 @@ for($i=0;$i<$kelimesayisi;$i++){
 <div id="yaz3"></div> 
 </body>
 </html>
+

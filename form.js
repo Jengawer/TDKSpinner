@@ -3,7 +3,6 @@ function sondur(){
     yukleniyor();
     gonder();
 }
- 
 function gonder(){
     $.ajax({
         type:'POST',
@@ -15,9 +14,8 @@ function gonder(){
         }
     });
 }
- 
 function yukleniyor(){
     $("#yaz").ajaxStart(function(){
-        $(this).html('');
+        $(this).html('Bekleyin...');
     });
 }
